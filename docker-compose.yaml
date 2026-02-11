@@ -1,0 +1,30 @@
+services:
+  agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-agent-container
+    restart: unless-stopped
+    ports:
+      - "8005:8000"
+    env_file:
+      - .env
+    #volumes:
+      #- ./:/usr/src/app:rw
+    # If you want to run in development with file reload uncomment:
+    command: uvicorn agent:app --host 0.0.0.0 --port 8000
+    networks:
+      - agents-network
+
+  #redis:
+    #image: redis:7
+    #container_name: redis
+    #restart: unless-stopped
+    #ports:
+      #- "6379:6379"
+    #networks:
+      #- agents-network
+
+networks:
+  agents-network:
+    driver: bridge

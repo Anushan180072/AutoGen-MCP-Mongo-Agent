@@ -1,0 +1,5 @@
+autogen-agentchat
+autogen-ext[openai,mcp]
+pymongo
+upstash-redis
+fastapi
