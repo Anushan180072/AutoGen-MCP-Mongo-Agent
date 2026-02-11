@@ -1,9 +1,9 @@
 # 🚀 Mongo-MCP Intelligent Agent
 Agentic conversational AI system that converts natural language into real-time MongoDB queries using AutoGen and MCP servers.
-An enterprise-grade AI Agent system that combines the power of **Google Gemini, MongoDB, and FastAPI.** This system uses the **Model Context Protocol (MCP)** to allow an AI agent to query databases, perform complex aggregations, calculate mathematical expressions, and draft/send automated emails based on live data.<br><br>
+An enterprise-grade AI Agent system that combines the power of **Google Gemini, MongoDB, and FastAPI.** This system uses the **Model Context Protocol (MCP)** to allow an AI agent to query databases, perform complex aggregations, calculate mathematical expressions, and draft/send automated emails based on live data.<br><br><br>
 
 
-**#✨ Features**
+**✨ Features**
 
 **Natural Language to MongoDB**: Query your database using plain English. The agent automatically generates filters and aggregation pipelines.
 
@@ -15,7 +15,7 @@ An enterprise-grade AI Agent system that combines the power of **Google Gemini, 
 
 **Session-Based Memory**: Uses BoundedMemory to maintain context across conversations without exceeding token limits.
 
-**Math & Date Handling**: Specialized logic for handling string-to-number conversions in MongoDB and complex UTC date comparisons.<br><br>
+**Math & Date Handling**: Specialized logic for handling string-to-number conversions in MongoDB and complex UTC date comparisons.<br><br><br>
 
 
 
